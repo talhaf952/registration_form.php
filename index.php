@@ -1,5 +1,5 @@
 <?php
-    include("db.php");
+    required("db.php");
 ?>
 
 <!DOCTYPE html>
