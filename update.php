@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,7 +14,7 @@
         {
             date_default_timezone_set('Asia/Karachi');
             $date=date("y-m-d");
-            $query="SELECT * from form WHERE 'email'='$_GET[email]' AND 'resettoken'='$_GET[reset_token]' AND 'resettokenexpire'='$date'";
+            $query="SELECT * from form WHERE 'email'='$_GET[email]' AND 'reset_token'='$_GET[reset_token]' AND 'resettokenexpire'='$date'";
             $result=mysqli_query($conn,$query);
             if($result)
             {
