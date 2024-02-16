@@ -32,3 +32,4 @@ $conn=mysqli_connect($servername,$username,$password, $database);
 //     echo "Table was not created becaus of this error->".mysqli_error($conn);
 // }
 ?>
+?>
