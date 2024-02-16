@@ -12,7 +12,6 @@ $conn=mysqli_connect($servername,$username,$password, $database);
 //     echo"Connected Successfully!";
 // }
 
-
 // $sql="create database register";
 // $result=mysqli_query($conn, $sql);
 
